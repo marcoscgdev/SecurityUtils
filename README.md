@@ -1,5 +1,5 @@
 # SecurityUtils
-Some android security utils like a root checker, adblock checker...
+Some android security utils like a root checker, adblock checker, app blocker...
 
 ## Usage:
 
