@@ -22,6 +22,15 @@ Now add the dependency to your app build.gradle file:
 compile 'com.github.marcoscgdev:SecurityUtils:1.0.1'
 ```
 
+### Using the functions
+
+ - Root checker
+ It returns a boolean value.
+ 
+ ```java
+ boolean isDeviceRooted = RootDetector.isRootPresent();
+ ```
+
 ---
 >See the *sample project* to clarify any queries you may have.
 
