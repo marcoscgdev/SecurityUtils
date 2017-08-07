@@ -70,6 +70,10 @@ AppBlocker.with(this)
         });
 ```
 
+#### How it works
+
+You have to host a .txt file in a server. The AppBlocker function will check that .txt file. If the file does not exists or is empty the onResult boolean value will be false. But if the file exists and contains text, the onResult value will be true.
+
 ---
 >See the *sample project* to clarify any queries you may have.
 
