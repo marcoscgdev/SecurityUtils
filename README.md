@@ -71,7 +71,7 @@ AppBlocker.with(this)
 
 #### How it works
 
-You have to host a .txt file in a server. The AppBlocker function will check that .txt file. If the file does not exists or is empty, the onResult boolean value will be false. But if the file exists and contains text, the onResult boolean value will be true. You can use this onResult boolean to block an app or whatever you want.
+You have to host a text file in a server. The AppBlocker function will check that text file. If the file does not exists or is empty, the onResult boolean value will be false. But if the file exists and contains text, the onResult boolean value will be true. You can use this onResult boolean to block the app or whatever you want.
 
 ---
 >See the *sample project* to clarify any queries you may have.
