@@ -24,7 +24,7 @@ compile 'com.github.marcoscgdev:SecurityUtils:1.0.1'
 
 ### Using the functions
 
- - Root checker
+ - Root detector
  
  It returns a boolean value.
  
