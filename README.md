@@ -60,7 +60,6 @@ AppBlocker.with(this)
             @Override
             public void onResult(boolean blockApp) {
                 ((TextView) findViewById(R.id.appblock_tv)).setText("Block app: " + blockApp);
-                progressDialog.dismiss();
             }
 
             @Override
