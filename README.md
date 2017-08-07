@@ -50,7 +50,25 @@ compile 'com.github.marcoscgdev:SecurityUtils:1.0.1'
  
   - App blocker
   
-  Coming soon...
+Useful for an online app blocking system.
+
+```java
+String textFileUrl = "https://raw.githubusercontent.com/marcoscgdev/marcoscgdev.github.io/master/assets/sc_block.txt";
+AppBlocker.with(this)
+                .withFileUrl(textFileUrl)
+                .withListener(new AppBlocker.AppBlockerListener() {
+                    @Override
+                    public void onResult(boolean blockApp) {
+                        ((TextView) findViewById(R.id.appblock_tv)).setText("Block app: " + blockApp);
+                        progressDialog.dismiss();
+                    }
+
+                    @Override
+                    public void onError() {
+                        // TODO
+                    }
+                });
+```
 
 ---
 >See the *sample project* to clarify any queries you may have.
