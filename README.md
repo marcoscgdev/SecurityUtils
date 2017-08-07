@@ -31,6 +31,18 @@ compile 'com.github.marcoscgdev:SecurityUtils:1.0.1'
  ```java
  boolean isDeviceRooted = RootDetector.isRootPresent();
  ```
+ 
+ - AdBlock detector
+ 
+ It returns a boolean value.
+ 
+ ```java
+ boolean isAdBlockEnabled = AntiAdBlocker.isAdBlockerPresent(boolean hasAds);
+ ```
+ 
+ The "hasAds" boolean is useful if you have two app versions: One with ads and another one without ads.
+ 
+ The AntiAdBlocker will only check if the device has an AdBlocker enabled if the "hasAds" boolean is true
 
 ---
 >See the *sample project* to clarify any queries you may have.
