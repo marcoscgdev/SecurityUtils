@@ -32,6 +32,8 @@ compile 'com.github.marcoscgdev:SecurityUtils:1.0.1'
  boolean isDeviceRooted = RootDetector.isRootPresent();
  ```
  
+ ---
+ 
  - AdBlock detector
  
  It returns a boolean value.
@@ -42,7 +44,13 @@ compile 'com.github.marcoscgdev:SecurityUtils:1.0.1'
  
  The "hasAds" boolean is useful if you have two app versions: One with ads and another one without ads.
  
- The AntiAdBlocker will only check if the device has an AdBlocker enabled if the "hasAds" boolean is true
+ The AntiAdBlocker will only check if the device has an AdBlocker active if the "hasAds" boolean is set to true.
+ 
+ ---
+ 
+  - App blocker
+  
+  Coming soon...
 
 ---
 >See the *sample project* to clarify any queries you may have.
